@@ -1,3 +1,10 @@
+kind: !matrix
+axis:
+  kind: !text-axis
+  name: FOO
+  valueString: bar baz
 builder:
-  kind: !by-name Execute shell
-  command: echo Hello JUC
+  kind: !shell
+  command: echo $FOO
+
+
