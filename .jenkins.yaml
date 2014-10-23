@@ -2,7 +2,7 @@ kind: !matrix
 axis:
   kind: !text-axis
   name: FOO
-  valueString: bar baz
+  valueString: bar baz JUC
 builder:
   kind: !shell
   command: echo $FOO
