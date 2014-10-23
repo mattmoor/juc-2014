@@ -1,0 +1,3 @@
+builder:
+  kind: hudson.tasks.Shell
+  command: echo Hello World
